@@ -1,0 +1,186 @@
+/* Team Members
+Sri Archana Taduri - 1001964029
+Kedar Kiran Penurkar - 1002033676
+Rishika Chowdary Potturu - 1002086700
+Shruthaja Patali Rao - 1002118604
+Kallam Sudharshan Reddy - 1002025316
+font-size - Adjusted according to the page
+font - Arial, sans-serif
+ */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url('../images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo img {
+    max-height: 60px;
+}
+
+nav ul {
+    list-style: none;
+    margin-right: 50px;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+nav li:first-child {
+    margin-left: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+main {
+    padding: 20px;
+    min-height: 78vh;
+}
+
+.btn {
+    background-color: rgb(24, 89, 153);
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+  
+  /* Darker background on mouse-over */
+  .btn:hover {
+    background-color: rgb(16, 42, 121);
+  }
+.notification_btn{
+    border: none;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Darker background on mouse-over */
+  .notification_btn:hover {
+    background-color: rgb(78, 152, 200);
+  }
+/* Chat button styles */
+.chat-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgb(24, 89, 153);
+    color: #fff;
+    padding: 25px;
+    border-radius: 50%;
+    z-index: 999;
+}
+  
+  .chat-button a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .chat-button:hover {
+    background-color: rgb(16, 42, 121);
+}
+
+.container {
+    padding: 20px;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.section-title {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    user-select: none;
+}
+
+.section-content {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    display: none;
+}
+
+.section[open] .section-content {
+    display: block;
+}
+
+.section-content label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.section-content input,
+.section-content select,
+.section-content textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.section-content textarea {
+    resize: vertical;
+}
+
+.section-content input[type="file"] {
+    display: none;
+}
+
+/* Styling for custom file upload button */
+.upload-btn {
+    display: inline-block;
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Style the file input label */
+.file-label {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+/* Hide default file input button */
+.file-input {
+    display: none;
+}
+
+/* Align center and evenly space the content inside the section */
+.section-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+

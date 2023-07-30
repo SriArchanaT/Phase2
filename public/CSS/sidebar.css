@@ -1,0 +1,309 @@
+/* Team Members
+Sri Archana Taduri - 1001964029
+Kedar Kiran Penurkar - 1002033676
+Rishika Chowdary Potturu - 1002086700
+Shruthaja Patali Rao - 1002118604
+Kallam Sudharshan Reddy - 1002025316
+font-size - Adjusted according to the page
+font - Arial, sans-serif
+*/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url('../images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo img {
+    max-height: 60px;
+}
+
+nav ul {
+    list-style: none;
+    margin-right: 50px;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+nav li:first-child {
+    margin-left: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+main {
+    padding: 20px;
+    min-height: 78vh;
+}
+
+.btn {
+    background-color: rgb(24, 89, 153);
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+  
+  /* Darker background on mouse-over */
+  .btn:hover {
+    background-color: rgb(16, 42, 121);
+  }
+.notification_btn{
+    border: none;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Darker background on mouse-over */
+  .notification_btn:hover {
+    background-color: rgb(78, 152, 200);
+  }
+/* Chat button styles */
+.chat-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgb(24, 89, 153);
+    color: #fff;
+    padding: 25px;
+    border-radius: 50%;
+    z-index: 999;
+}
+  
+  .chat-button a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .chat-button:hover {
+    background-color: rgb(16, 42, 121);
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+}
+
+header {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+header .logo img {
+    height: 40px;
+}
+
+header .hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+header .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px 0;
+}
+
+header .notifications-bar {
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    display: none;
+}
+
+header .notifications-bar a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+main {
+    padding: 20px;
+}
+
+#dashboard {
+    background-color: rgb(193, 211, 226);
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+#dashboard h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.dashboard-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.option {
+    flex: 0 0 calc(33.33% - 20px);
+    background-color: rgb(104, 152, 192);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.option a {
+    text-decoration: none;
+    color: #333;
+}
+
+.option i {
+    font-size: 40px;
+    margin-bottom: 10px;
+    margin: 0px 50%;
+}
+.option:hover{
+    background-color: rgb(214, 175, 91) ;
+}
+/* CSS for the sidebar */
+.sidebar {
+    position: fixed;
+    top: 10px;
+    right: -300px; /* Change this value to control the sidebar width */
+    width: 300px; /* Change this value to control the sidebar width */
+    height: 100%;
+    background-color: #f0f0f0;
+    padding: 20px;
+    z-index: 9999;
+    transition: right 0.3s ease-in-out;
+    display: none;
+}
+
+.notifications-btn {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.notifications-btn i {
+    color: #333;
+}
+
+.notifications-btn:hover i {
+    color: #ff6f00; /* Change this value to the desired hover color */
+}
+
+.notifications-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.notification-item {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.cta {
+    display: inline-block;
+    background-color: rgb(24, 89, 153);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cta:hover {
+    background-color: rgb(16, 42, 121);
+}
+
+
+
+/* CSS for sidebar
+/* Hide the checkbox */
+input[type="checkbox"] {
+    display: none;
+  }
+  
+/* Style the sidebar icon */
+#sidebar-icon {
+/* position: fixed; */
+top: 20px;
+right: 20px; /* Position the icon on the top right corner */
+font-size: 24px;
+cursor: pointer;
+z-index: 9999; /* Ensure the icon is above other elements */
+color: #000;
+}
+
+/* Style the sidebar icon when the checkbox is checked */
+input[type="checkbox"]:checked + #sidebar-icon::before {
+content: '\00d7'; /* Display an "X" symbol when the sidebar is open */
+}
+
+/* Style the sidebar */
+#sidebar {
+position: fixed;
+top: 0;
+right: -200px; /* Set the initial state of the sidebar to be hidden */
+width: 200px;
+height: 100%;
+background-color: #c3dfed;
+padding-top: 60px; /* Add padding for the close button */
+transition: right 0.3s ease; /* Update the transition property to affect the right position */
+}
+
+/* Style the sidebar content */
+#sidebar ul {
+list-style: none;
+padding: 0;
+margin: 0;
+}
+
+#sidebar li {
+padding: 10px;
+border-bottom: 1px solid #555;
+}
+
+/* Show the sidebar when the checkbox is checked */
+input[type="checkbox"]:checked + #sidebar {
+right: 0; /* Slide in the sidebar from the right when the checkbox is checked */
+}

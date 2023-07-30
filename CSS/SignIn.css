@@ -1,0 +1,193 @@
+/* Team Members
+Sri Archana Taduri - 1001964029
+Kedar Kiran Penurkar - 1002033676
+Rishika Chowdary Potturu - 1002086700
+Shruthaja Patali Rao - 1002118604
+Kallam Sudharshan Reddy - 1002025316
+font-size - Adjusted according to the page
+font - Arial, sans-serif
+*/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url('../images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo img {
+    max-height: 80px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+nav li:first-child {
+    margin-left: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+main {
+    padding: 20px;
+    min-height: 78vh;
+}
+
+.btn {
+    background-color: rgb(24, 89, 153);
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Darker background on mouse-over */
+  .btn:hover {
+    background-color: rgb(16, 42, 121);
+  }
+
+/* Add specific styles for the Sign In page */
+#signin {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.signin-container {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+.signin-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.signin-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.signin-container label {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.signin-container input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.signin-btn {
+    width: 100%; /* Reduce the width to 100% */
+    max-width: 120px; /* Set a maximum width if needed */
+    margin: 0 auto; /* Center the button horizontally */
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Adjust the width for smaller screens */
+@media screen and (max-width: 768px) {
+    .signin-container {
+        max-width: 90%;
+    }
+}
+
+
+/* Chat button styles */
+.chat-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgb(24, 89, 153);
+    color: #fff;
+    padding: 25px;
+    border-radius: 50%;
+    z-index: 999;
+}
+  
+  .chat-button a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .chat-button:hover {
+    background-color: rgb(16, 42, 121);
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+}
+
+.input-container {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.input-container i {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #ccc;
+    font-size: 16px;
+}
+
+.input-container input {
+    padding: 10px 30px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    font-size: 16px;
+    outline: none;
+}
+
+.forgot-link {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.forgot-link a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.forgot-link a:hover {
+    text-decoration: underline;
+}

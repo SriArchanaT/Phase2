@@ -1,0 +1,22 @@
+/* Team Members
+Sri Archana Taduri - 1001964029
+Kedar Kiran Penurkar - 1002033676
+Rishika Chowdary Potturu - 1002086700
+Shruthaja Patali Rao - 1002118604
+Kallam Sudharshan Reddy - 1002025316
+font-size - Adjusted according to the page
+font - Arial, sans-serif
+*/
+
+ .update_button {
+    display: block;
+    width: 100%;
+    background-color: rgb(24,89,153);
+    color: #fff;
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10%;
+    margin-top: 20%;
+}

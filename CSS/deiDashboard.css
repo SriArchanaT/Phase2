@@ -1,0 +1,116 @@
+/* Team Members
+Sri Archana Taduri - 1001964029
+Kedar Kiran Penurkar - 1002033676
+Rishika Chowdary Potturu - 1002086700
+Shruthaja Patali Rao - 1002118604
+Kallam Sudharshan Reddy - 1002025316
+font-size - Adjusted according to the page
+font - Arial, sans-serif
+ */
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.card {
+    flex: 1;
+    max-width: 48%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.card h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.details {
+    margin-bottom: 20px;
+}
+
+.details p {
+    margin: 10px 0;
+}
+
+.update-profile-button, .candidates-profile-button {
+    display: block;
+    width: 100%;
+    background-color: rgb(24,89,153);
+    color: #fff;
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 10%;
+    margin-top: 20%;
+}
+
+.update-preferences-button {
+    background-color: rgb(24,89,153);
+    color: #fff;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.chat-requests-table, .job-postings-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.chat-requests-table th, .chat-requests-table td,
+.job-postings-table th, .job-postings-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+
+.chat-requests-table th {
+    background-color: #f2f2f2;
+}
+
+.chat-requests-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.job-postings-table th {
+    background-color: rgb(24,89,153);
+    color: #fff;
+}
+
+.job-postings-table button {
+    background-color: rgb(24,89,153);
+    color: #fff;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.job-postings-table button:not(:last-child) {
+    margin-right: 5px;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.boxcard {
+    background-color: rgb(169, 228, 228);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    margin-bottom: 10%;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}

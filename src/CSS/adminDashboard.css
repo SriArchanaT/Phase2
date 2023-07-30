@@ -1,0 +1,284 @@
+/* Team Members
+Sri Archana Taduri - 1001964029
+Kedar Kiran Penurkar - 1002033676
+Rishika Chowdary Potturu - 1002086700
+Shruthaja Patali Rao - 1002118604
+Kallam Sudharshan Reddy - 1002025316
+font-size - Adjusted according to the page
+font - Arial, sans-serif
+ */
+ 
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url('../images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.logo img {
+    max-height: 60px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+nav li:first-child {
+    margin-left: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+main {
+    padding: 20px;
+    min-height: 78vh;
+}
+
+.btn {
+    background-color: rgb(24, 89, 153);
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+    background-color: rgb(16, 42, 121);
+}
+
+/* Chat button styles */
+.chat-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgb(24, 89, 153);
+    color: #fff;
+    padding: 25px;
+    border-radius: 50%;
+    z-index: 999;
+}
+
+.chat-button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.chat-button:hover {
+    background-color: rgb(16, 42, 121);
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+}
+
+header {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+header .logo img {
+    height: 40px;
+}
+
+header .hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+header .bar {
+    width: 25px;
+    height: 3px;
+    background-color: #fff;
+    margin: 5px 0;
+}
+
+header .notifications-bar {
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    display: none;
+}
+
+header .notifications-bar a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+main {
+    padding: 20px;
+}
+
+#dashboard {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+#dashboard h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.dashboard-options {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.option {
+    flex: 0 0 calc(33.33% - 20px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.option a {
+    text-decoration: none;
+    color: #333;
+}
+
+.option i {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+/* Dashboard Information section */
+
+.dashboard-info {
+    background-color: #8bafc3;
+    padding: 1rem;
+}
+
+.dashboard-stats {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Manage Users section */
+
+.manage-users {
+    background-color: #8bafc3;
+    padding: 1rem;
+}
+
+.user-approval {
+    margin-bottom: 1rem;
+}
+
+.user-approval ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.user-approval li {
+    margin-bottom: 0.5rem;
+}
+
+.approve-button,
+.reject-button {
+    background-color: #333;
+    color: rgb(195, 138, 138);
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+/* Reports section */
+
+.reports {
+    background-color: #8bafc3;
+    padding: 1rem;
+}
+
+.report {
+    margin-bottom: 1rem;
+}
+
+/* Issue Resolution Statistics section */
+
+.issue-statistics {
+    background-color: #8bafc3;
+    padding: 1rem;
+}
+
+.bar-chart {
+    display: flex;
+    justify-content: space-around;
+}
+
+.bar {
+    width: 20px;
+    text-align: center;
+    color: rgb(145, 85, 85);
+    font-weight: bold;
+}
+
+/* Other CSS styles... */
+
+.issue-statistics {
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .table-container {
+    overflow-x: auto;
+  }
+  
+  .issue-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .issue-table th,
+  .issue-table td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .issue-table th {
+    background-color: #f0f0f0;
+  }
+  
+  /* Other CSS styles... */
+  

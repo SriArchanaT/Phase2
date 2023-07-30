@@ -1,0 +1,97 @@
+/* Team Members
+Sri Archana Taduri - 1001964029
+Kedar Kiran Penurkar - 1002033676
+Rishika Chowdary Potturu - 1002086700
+Shruthaja Patali Rao - 1002118604
+Kallam Sudharshan Reddy - 1002025316
+font-size - Adjusted according to the page
+font - Arial, sans-serif
+ */
+ 
+ section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* White box styles */
+.white-box {
+    background-color: rgb(146, 184, 216);
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.applied-jobs table,
+.search-jobs table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.applied-jobs th,
+.applied-jobs td,
+.search-jobs th,
+.search-jobs td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+
+.applied-jobs th {
+    background-color: rgb(24, 89, 153);
+    color: #fff;
+}
+
+.applied-jobs td:last-child,
+.search-jobs td:last-child {
+    width: 150px;
+}
+
+.update-interests .input-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.update-interests label {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.update-interests input[type="text"] {
+    flex: 2;
+    padding: 5px;
+}
+
+.update-interests button {
+    background-color: rgb(24, 89, 153);
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.search-container label {
+    margin-right: 10px;
+}
+
+.search-container input[type="text"] {
+    padding: 5px;
+}
+
+.feedback-button {
+    background-color: rgb(24, 89, 153);
+    color: #fff;
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+}

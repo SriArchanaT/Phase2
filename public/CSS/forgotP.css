@@ -1,0 +1,172 @@
+/* Team Members
+Sri Archana Taduri - 1001964029
+Kedar Kiran Penurkar - 1002033676
+Rishika Chowdary Potturu - 1002086700
+Shruthaja Patali Rao - 1002118604
+Kallam Sudharshan Reddy - 1002025316
+font-size - Adjusted according to the page
+font - Arial, sans-serif
+ */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url('../images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.logo img {
+    max-height: 60px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+nav li:first-child {
+    margin-left: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+main {
+    padding: 20px;
+    min-height: 78vh;
+}
+
+.btn {
+    background-color: rgb(24, 89, 153);
+    border: none;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Darker background on mouse-over */
+  .btn:hover {
+    background-color: rgb(16, 42, 121);
+  }
+
+/* Chat button styles */
+.chat-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: rgb(24, 89, 153);
+    color: #fff;
+    padding: 25px;
+    border-radius: 50%;
+    z-index: 999;
+}
+  
+  .chat-button a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .chat-button:hover {
+    background-color: rgb(16, 42, 121);
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+}
+
+.forgot-container {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: center;
+}
+
+.oops-logo img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-width: 20%;
+    height: auto;
+}
+
+.forgot-container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.forgot-container p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.forgot-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-container {
+    margin-bottom: 15px;
+}
+
+.input-container input {
+    padding: 11px 70px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    text-align: inherit;
+}
+
+.submit-btn {
+    padding: 10px 31px;
+    background-color: rgb(24, 89, 153);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 40%;
+    position: relative;
+    margin-top: -2px;
+    margin-inline: auto;
+}
+
+.submit-btn:hover {
+    background-color: rgb(16, 42, 121);
+}
+
+.back-btn {
+    margin-top: 20px;
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.back-btn:hover {
+    text-decoration: underline;
+}
